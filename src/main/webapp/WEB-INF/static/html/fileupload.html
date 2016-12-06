@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<style>
+div.fileinputs {
+	position: relative;
+}
+
+div.fakefile {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 1;
+}
+
+input.file {
+	position: relative;
+	text-align: right;
+	-moz-opacity: 0;
+	filter: alpha(opacity : 0);
+	opacity: 0;
+	z-index: 2;
+}
+</style>
+</head>
+<!-- <body ng-app="fupApp">
+    <div ng-controller="fupController">
+
+       <input type = "file" file-model = "myFile"/>
+         <button ng-click = "uploadFile()">upload me</button>
+    </div>
+</body>
+ -->
+
+
+<div class="fileinputs ng-scope" style="background-image: url(static/resources/upload.png);background-repeat: no-repeat;background-position: center;padding-top: 260;background-color: blue;height: 100%;">
+
+	<div ng-controller="fupController" class="fileUpload btn btn-primary ng-scope" style="border-radius: 10px; width: 100%; height: 150; border-top-width: 50px;">
+
+		<input type="file" file-model="myFile" style="height: 60px; border-left: 300; padding-left: 300;width: 5000" class="uploadButton">
+		<button ng-click="uploadFile()" class="uploadbutton" style="
+    align-items: left;
+    height: 31px;
+    width: 350;
+    padding-left: px;
+    border-left: 450;
+    margin-left: 300;
+">Upload File</button>
+	</div>
+
+</div>
+
+
+
+
+
+
+
+</div>
+</html>

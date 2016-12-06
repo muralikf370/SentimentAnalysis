@@ -1,0 +1,97 @@
+
+
+.form-loginbutton {
+    display: block; 
+    
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;    
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-left: 120px;
+      text-transform: normal !important;
+   
+}
+
+.control-labelSearchPanel {
+    padding-top: 7px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.form-controlsearchPanel {
+    display: block;
+    width: 50%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+   
+}
+
+.fileUpload {
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+}
+.fileUpload input.upload {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+ a#fpwd:link
+  {
+    color: #FFF;
+    text-decoration: none;
+  }
+
+  a#fpwd:hover{
+    color: blue;
+    text-decoration: none;
+  } 
+
+  .bgcolor
+  {
+  	margin-left: -500px;
+  	border-radius: 10px;
+  	height: 400px;
+  	width: 400px;
+  	background-color: #1D1A1A;
+  }
+  
+  
+  	.signupcenter{
+			margin-left: 314px;
+		}
+
+		.boxes{
+			border-style: solid;
+			border-radius: 5px;
+		}		
+		.clr{
+			color: white;
+		}
+		.bor{
+			margin-top: 120px; 
+			width: 400px; 
+			border: 2px; 
+			border-radius: 10px; 
+			background-color: #1d1a1a;
+			margin-right: 200px;
+
+		}
